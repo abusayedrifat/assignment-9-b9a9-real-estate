@@ -1,6 +1,7 @@
 [
     {
       "property_id": "1",
+      "status":"for sale",
       "name": "Oceanfront Malibu Estate",
       "location": {
         "address": "1234 Pacific Coast Hwy",
@@ -67,6 +68,7 @@
     },
     {
       "property_id": "2",
+      "status":"for sale",
       "name": "Mediterranean Hillside Villa",
       "location": {
         "address": "Via Marina Grande",
@@ -137,6 +139,7 @@
     },
     {
       "property_id": "3",
+      "status":"for sale",
       "name": "Caribbean Private Island",
       "location": {
         "address": "Private Island",
@@ -217,6 +220,7 @@
     },
     {
         "property_id": "4",
+        "status":"for sale",
         "name": "French Countryside Chateau",
         "location": {
           "address": "123 Rue de la Belle",
@@ -289,6 +293,7 @@
       },
       {
         "property_id": "5",
+        "status":"for sale",
         "name": "Aspen Mountain Estate",
         "location": {
           "address": "789 Snowmass Drive",
@@ -368,6 +373,7 @@
       },
       {
         "property_id": "6",
+        "status":"for sale",
         "name": "Dubai Marina Penthouse",
         "location": {
           "address": "456 Dubai Marina",
@@ -447,6 +453,7 @@
       },
       {
         "property_id": "7",
+        "status":"for sale",
         "name": "Balinese Private Island",
         "location": {
           "address": "Private Island",
@@ -537,6 +544,7 @@
       },
       {
         "property_id": "8",
+        "status":"for sale",
         "name": "Beverly Hills Modern Mansion",
         "location": {
           "address": "789 Sunset Boulevard",
@@ -619,6 +627,7 @@
       },
       {
         "property_id": "9",
+        "status":"for sale",
         "name": "Swiss Alps Ski Lodge",
         "location": {
           "address": "456 Alpine Road",
