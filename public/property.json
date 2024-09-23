@@ -1,0 +1,701 @@
+[
+    {
+      "property_id": "1",
+      "name": "Oceanfront Malibu Estate",
+      "location": {
+        "address": "1234 Pacific Coast Hwy",
+        "city": "Malibu",
+        "state": "California",
+        "postal_code": "90265",
+        "country": "USA"
+      },
+      "type": "Beachfront Estate",
+      "price": 25000000,
+      "size": "10,000 sqft",
+      "land_size": "2 acres",
+      "bedrooms": 7,
+      "bathrooms": 9,
+      "features": {
+        "interior": [
+          "Expansive great room with floor-to-ceiling windows",
+          "Open-concept gourmet kitchen with marble countertops and professional-grade appliances",
+          "Custom wine cellar with capacity for 1,000 bottles",
+          "Private home theater with reclining leather seating",
+          "Spa-like master bathroom with soaking tub and steam shower",
+          "Private office with built-in bookcases and ocean views",
+          "Smart home technology with full automation of lighting, climate control, and security",
+          "Hardwood floors throughout, with imported stone in bathrooms"
+        ],
+        "exterior": [
+          "Infinity-edge pool overlooking the Pacific Ocean",
+          "Direct private beach access with a secluded beachfront cabana",
+          "Outdoor kitchen and BBQ area with built-in seating for 12",
+          "Expansive terrace with fire pits and lounge seating",
+          "Landscaped gardens with palm trees and native plants",
+          "Private gated entrance with 24/7 security monitoring",
+          "Three-car garage with additional guest parking",
+          "Detached guesthouse with two bedrooms and a full kitchen"
+        ]
+      },
+      "amenities": {
+        "interior": [
+          "Private spa with massage room and sauna",
+          "State-of-the-art gym with panoramic ocean views",
+          "Temperature-controlled wine tasting room",
+          "Game room with pool table and custom bar",
+          "Fully equipped business center with high-speed internet",
+          "Walk-in closets with custom shelving and lighting",
+          "Dedicated laundry room with commercial-grade machines"
+        ],
+        "exterior": [
+          "Private yacht dock available nearby",
+          "Full-time groundskeeper and maintenance staff",
+          "Outdoor shower with hot and cold water",
+          "Helipad for quick access to Los Angeles",
+          "Infinity pool with integrated spa",
+          "Multiple outdoor dining areas for large-scale entertaining"
+        ]
+      },
+      "images":{
+        "img1": "/src/assets/house-1/Screenshot (335).png",
+        "img2": "/src/assets/house-1/Screenshot (336).png",
+        "img3": "/src/assets/house-1/Screenshot (337).png",
+        "img4": "/src/assets/house-1/Screenshot (338).png",
+        "img5": "/src/assets/house-1/Screenshot (339).png"
+      }
+
+    },
+    {
+      "property_id": "2",
+      "name": "Mediterranean Hillside Villa",
+      "location": {
+        "address": "Via Marina Grande",
+        "city": "Capri",
+        "region": "Campania",
+        "postal_code": "80073",
+        "country": "Italy"
+      },
+      "type": "Luxury Villa",
+      "price": 30000000,
+      "size": "8,500 sqft",
+      "land_size": "1.5 acres",
+      "bedrooms": 6,
+      "bathrooms": 8,
+      "features": {
+        "interior": [
+          "Handcrafted marble floors with intricate inlays",
+          "Custom wood-paneled library with built-in shelving",
+          "Formal dining room with seating for 14",
+          "Chef's kitchen with professional-grade appliances and marble counters",
+          "Opulent master suite with private terrace and jacuzzi",
+          "Multiple living areas with antique chandeliers and French doors",
+          "Climate-controlled wine cellar",
+          "Smart home system controlling lighting, music, and security"
+        ],
+        "exterior": [
+          "Infinity-edge pool with panoramic views of the Mediterranean Sea",
+          "Terraced gardens with olive trees, fountains, and Mediterranean flora",
+          "Expansive outdoor dining area with wood-burning pizza oven",
+          "Private gated entrance with cobblestone driveway",
+          "Outdoor lounge with built-in fire pit and plush seating",
+          "Sunbathing terrace overlooking the sea",
+          "Carriage house with staff quarters and additional storage",
+          "Helipad for private helicopter access"
+        ]
+      },
+      "amenities": {
+        "interior": [
+          "Private spa with sauna, steam room, and massage suite",
+          "Gym with floor-to-ceiling windows offering sea views",
+          "Indoor pool with mood lighting and sound system",
+          "Private cinema with surround sound and reclining seats",
+          "Dedicated art gallery room with controlled lighting",
+          "Game room with billiards, darts, and a full bar",
+          "Temperature-controlled wine cellar and tasting room"
+        ],
+        "exterior": [
+          "Fully staffed, including personal chef and concierge",
+          "Boat mooring available nearby for private yacht",
+          "Multiple outdoor living spaces designed for entertaining",
+          "Climate-controlled greenhouse for exotic plants",
+          "Tennis court with sea views and private instructor",
+          "24/7 security with gated access and CCTV surveillance",
+          "Outdoor shower and changing room next to the pool"
+        ]
+      },
+      "images":{
+        "img1":"/src/assets/house-2/Screenshot (340).png",
+        "img2":"/src/assets/house-2/Screenshot (341).png",
+        "img3":"/src/assets/house-2/Screenshot (342).png",
+        "img4":"/src/assets/house-2/Screenshot (343).png",
+        "img5":"/src/assets/house-2/Screenshot (344).png",
+        "img6":"/src/assets/house-2/Screenshot (345).png",
+        "img7":"/src/assets/house-2/Screenshot (346).png",
+        "img8":"/src/assets/house-2/Screenshot (347).png",
+        "img9":"/src/assets/house-2/Screenshot (348).png"
+      }
+    },
+    {
+      "property_id": "3",
+      "name": "Caribbean Private Island",
+      "location": {
+        "address": "Private Island",
+        "city": "Exuma",
+        "region": "Bahamas",
+        "postal_code": "00000",
+        "country": "Bahamas"
+      },
+      "type": "Private Island",
+      "price": 75000000,
+      "size": "12,000 sqft",
+      "land_size": "120 acres",
+      "bedrooms": 10,
+      "bathrooms": 12,
+      "features": {
+        "interior": [
+          "Expansive open-plan living areas with floor-to-ceiling windows",
+          "Custom-designed kitchen with high-end appliances and ocean views",
+          "Luxury master suite with private balcony and oceanfront jacuzzi",
+          "Multiple guest suites with ensuite bathrooms and private terraces",
+          "Spa-like bathrooms with freestanding tubs and rain showers",
+          "Private library with custom-built shelving",
+          "Home theater with surround sound and luxury seating",
+          "Smart home system with full automation of lighting and temperature"
+        ],
+        "exterior": [
+          "Three private beaches with powdery white sand",
+          "Deep-water dock for yachts and seaplanes",
+          "Helipad for private helicopter landings",
+          "Multiple outdoor dining areas with ocean views",
+          "Infinity-edge pool with swim-up bar",
+          "Lush tropical landscaping with palm trees and exotic plants",
+          "Solar-powered energy system with backup generators",
+          "Private guest villas located throughout the island"
+        ]
+      },
+      "amenities": {
+        "interior": [
+          "Fully equipped diving center with scuba and snorkeling gear",
+          "Private spa with massage rooms, steam room, and outdoor jacuzzi",
+          "Luxury movie theater with projection screen and reclining chairs",
+          "State-of-the-art fitness center with personal trainers available",
+          "Game room with poker tables, pool, and arcade games",
+          "Personal chef with access to fresh, local ingredients",
+          "Dedicated office space with high-speed internet and teleconference system"
+        ],
+        "exterior": [
+          "Tennis court with ocean views and private instructor",
+          "Kayaks, paddleboards, and jet skis available for use",
+          "Full-service yacht and boat dock",
+          "Private walking trails with lush tropical foliage",
+          "Bonfire pits on the beach with lounge seating",
+          "Multiple outdoor bars and grilling stations",
+          "Wildlife preserve with exotic animals native to the island"
+        ]
+      },
+      "images":{
+        "img1":"/src/assets/house-8/Screenshot (451).png",
+        "img2":"/src/assets/house-8/Screenshot (452).png",
+        "img3":"/src/assets/house-8/Screenshot (453).png",
+        "img4":"/src/assets/house-8/Screenshot (454).png",
+        "img5":"/src/assets/house-8/Screenshot (455).png",
+        "img6":"/src/assets/house-8/Screenshot (456).png",
+        "img7":"/src/assets/house-8/Screenshot (457).png",
+        "img8":"/src/assets/house-8/Screenshot (458).png",
+        "img9":"/src/assets/house-8/Screenshot (459).png",
+        "img10":"/src/assets/house-8/Screenshot (460).png",
+        "img11":"/src/assets/house-8/Screenshot (461).png",
+        "img12":"/src/assets/house-8/Screenshot (462).png",
+        "img13":"/src/assets/house-8/Screenshot (463).png",
+        "img14":"/src/assets/house-8/Screenshot (464).png",
+        "img15":"/src/assets/house-8/Screenshot (465).png",
+        "img16":"/src/assets/house-8/Screenshot (466).png",
+        "img17":"/src/assets/house-8/Screenshot (467).png",
+        "img18":"/src/assets/house-8/Screenshot (468).png",
+        "img19":"/src/assets/house-8/Screenshot (469).png"
+      }
+    },
+    {
+        "property_id": "4",
+        "name": "French Countryside Chateau",
+        "location": {
+          "address": "123 Rue de la Belle",
+          "city": "Loire Valley",
+          "region": "Centre-Val de Loire",
+          "postal_code": "37000",
+          "country": "France"
+        },
+        "type": "Chateau",
+        "price": 45000000,
+        "size": "22,000 sqft",
+        "land_size": "30 acres",
+        "bedrooms": 12,
+        "bathrooms": 14,
+        "features": {
+          "interior": [
+            "Grand ballroom with intricate ceiling frescoes",
+            "Formal dining hall with seating for 24",
+            "Library with custom-built floor-to-ceiling bookshelves",
+            "Multiple fireplaces with original marble mantels",
+            "Chef’s kitchen with professional-grade appliances and La Cornue stove",
+            "Wine cellar with 2,000 bottle capacity",
+            "Private chapel with original stained glass windows",
+            "Restored 18th-century architectural details throughout"
+          ],
+          "exterior": [
+            "Private lake with boating dock",
+            "Extensive formal gardens with mazes and fountains",
+            "Olympic-sized outdoor swimming pool with pool house",
+            "Private hunting grounds with wildlife preserve",
+            "Helipad for private helicopter landings",
+            "Equestrian facilities with stables and riding trails",
+            "Courtyard with cobblestone drive and water fountain",
+            "Tennis court with countryside views"
+          ]
+        },
+        "amenities": {
+          "interior": [
+            "Indoor swimming pool with vaulted ceilings",
+            "Private spa with massage room, sauna, and jacuzzi",
+            "Billiard room with antique furnishings",
+            "Home theater with plush seating and surround sound",
+            "Personal chef available for gourmet dining",
+            "State-of-the-art gym with personal trainer",
+            "Butler's pantry and wine tasting room",
+            "24-hour concierge and security service"
+          ],
+          "exterior": [
+            "Horseback riding lessons and guided trails",
+            "Helicopter service for travel arrangements",
+            "Private tennis instructor",
+            "Boating and fishing equipment provided",
+            "Multiple outdoor dining spaces with full-service catering",
+            "Full-time groundskeeper and gardening staff",
+            "On-site vineyard producing private-label wine",
+            "24/7 security surveillance with gated access"
+          ]
+        },
+        "images":{
+        "img1":"/src/assets/house-3/Screenshot (350).png",
+        "img2":"/src/assets/house-3/Screenshot (351).png",
+        "img3":"/src/assets/house-3/Screenshot (352).png",
+        "img4":"/src/assets/house-3/Screenshot (353).png",
+        "img5":"/src/assets/house-3/Screenshot (354).png",
+        "img6":"/src/assets/house-3/Screenshot (355).png",
+        "img7":"/src/assets/house-3/Screenshot (360).png",
+        "img8":"/src/assets/house-3/Screenshot (361).png",
+        "img9":"/src/assets/house-3/Screenshot (362).png"
+      }
+      },
+      {
+        "property_id": "5",
+        "name": "Aspen Mountain Estate",
+        "location": {
+          "address": "789 Snowmass Drive",
+          "city": "Aspen",
+          "state": "Colorado",
+          "postal_code": "81611",
+          "country": "USA"
+        },
+        "type": "Mountain Estate",
+        "price": 32000000,
+        "size": "15,000 sqft",
+        "land_size": "10 acres",
+        "bedrooms": 9,
+        "bathrooms": 11,
+        "features": {
+          "interior": [
+            "Open-plan living area with vaulted timber ceilings",
+            "Stone fireplace in great room with floor-to-ceiling windows",
+            "Chef's kitchen with granite countertops and Sub-Zero appliances",
+            "Private ski-in, ski-out access to the slopes",
+            "Indoor lap pool with retractable glass walls",
+            "Private library with cozy reading nooks",
+            "Master suite with private balcony and fireplace",
+            "Smart home technology for lighting, temperature, and security control"
+          ],
+          "exterior": [
+            "Expansive outdoor terraces with fire pits and seating",
+            "Hot tub with panoramic mountain views",
+            "Private hiking trails through wooded acreage",
+            "Outdoor kitchen with BBQ, pizza oven, and bar seating",
+            "Ski-in, ski-out access to private ski slopes",
+            "Helipad for helicopter landings",
+            "Three-car heated garage with additional guest parking",
+            "Gated entrance with 24/7 security"
+          ]
+        },
+        "amenities": {
+          "interior": [
+            "Private sauna and steam room",
+            "Home theater with recliner seating and surround sound",
+            "State-of-the-art gym with personal trainer",
+            "Game room with pool table and arcade games",
+            "Temperature-controlled wine cellar with 1,500-bottle capacity",
+            "Dedicated office space with high-speed internet",
+            "Indoor lap pool and fitness spa",
+            "Personal concierge service"
+          ],
+          "exterior": [
+            "Ski lift access directly from the property",
+            "Outdoor entertainment area with fire pit and seating",
+            "Tennis court with mountain views",
+            "Private horse stables and equestrian trails",
+            "Full-time groundskeeper for landscaping and maintenance",
+            "Outdoor lounge with built-in fire pit and seating",
+            "Luxury snowmobiles and ATVs available for use",
+            "Private helicopter service for travel arrangements"
+          ]
+        },
+        "images":{
+        "img1":"/src/assets/house-5/Screenshot (384).png",
+        "img2":"/src/assets/house-5/Screenshot (388).png",
+        "img3":"/src/assets/house-5/Screenshot (389).png",
+        "img4":"/src/assets/house-5/Screenshot (390).png",
+        "img5":"/src/assets/house-5/Screenshot (391).png",
+        "img6":"/src/assets/house-5/Screenshot (392).png",
+        "img7":"/src/assets/house-5/Screenshot (393).png",
+        "img8":"/src/assets/house-5/Screenshot (394).png",
+        "img9":"/src/assets/house-5/Screenshot (396).png",
+        "img10":"/src/assets/house-5/Screenshot (397).png",
+        "img11":"/src/assets/house-5/Screenshot (398).png",
+        "img12":"/src/assets/house-5/Screenshot (399).png",
+        "img13":"/src/assets/house-5/Screenshot (401).png",
+        "img14":"/src/assets/house-5/Screenshot (402).png",
+        "img15":"/src/assets/house-5/Screenshot (403).png",
+        "img16":"/src/assets/house-5/Screenshot (404).png"
+      }
+      },
+      {
+        "property_id": "6",
+        "name": "Dubai Marina Penthouse",
+        "location": {
+          "address": "456 Dubai Marina",
+          "city": "Dubai",
+          "region": "Dubai",
+          "postal_code": "00000",
+          "country": "United Arab Emirates"
+        },
+        "type": "Penthouse",
+        "price": 55000000,
+        "size": "18,000 sqft",
+        "land_size": "N/A",
+        "bedrooms": 8,
+        "bathrooms": 10,
+        "features": {
+          "interior": [
+            "Full-floor penthouse with 360-degree panoramic views",
+            "Private elevator with direct access to the residence",
+            "Expansive open-plan living area with floor-to-ceiling windows",
+            "Gourmet kitchen with custom cabinetry and high-end appliances",
+            "Multiple balconies with views of the Dubai skyline and Marina",
+            "Master suite with private terrace, jacuzzi, and custom closets",
+            "Smart home system controlling lighting, shades, and climate",
+            "Bespoke marble flooring throughout with custom lighting fixtures"
+          ],
+          "exterior": [
+            "Private rooftop terrace with infinity pool and jacuzzi",
+            "Outdoor lounge area with fire pits and cabanas",
+            "Private yacht docking privileges at Dubai Marina",
+            "Exclusive access to luxury branded stores within the building",
+            "Landscaped rooftop garden with exotic plants and fountains",
+            "Private 10-car garage with valet service",
+            "Gated security entrance with 24/7 surveillance",
+            "Helipad for private helicopter access"
+          ]
+        },
+        "amenities": {
+          "interior": [
+            "Private cinema with 20 seats and Dolby Atmos sound",
+            "State-of-the-art fitness center with panoramic views",
+            "Spa with sauna, steam room, and massage suites",
+            "Custom wine cellar with tasting room",
+            "Dedicated staff quarters with separate entrance",
+            "Luxury office suite with skyline views",
+            "Indoor pool and fitness spa",
+            "24/7 concierge and butler service"
+          ],
+          "exterior": [
+            "Private helipad for easy transportation",
+            "Access to nearby golf courses and luxury resorts",
+            "Full-service marina with yacht charter options",
+            "Multiple outdoor dining and entertainment spaces",
+            "Private beach access with cabanas and water sports equipment",
+            "Outdoor bar and grilling area with city skyline views",
+            "Luxury branded stores and fine dining restaurants",
+            "24-hour valet parking and full-service staff"
+          ]
+        },
+        "images":{
+            "img1":"/src/assets/house-7/Screenshot (433) - Copy.png",
+            "img2":"/src/assets/house-7/Screenshot (434) - Copy.png",
+            "img3":"/src/assets/house-7/Screenshot (435) - Copy.png",
+            "img4":"/src/assets/house-7/Screenshot (436) - Copy.png",
+            "img5":"/src/assets/house-7/Screenshot (440) - Copy.png",
+            "img6":"/src/assets/house-7/Screenshot (441) - Copy.png",
+            "img7":"/src/assets/house-7/Screenshot (442) - Copy.png",
+            "img8":"/src/assets/house-7/Screenshot (443) - Copy.png",
+            "img9":"/src/assets/house-7/Screenshot (444) - Copy.png",
+            "img10":"/src/assets/house-7/Screenshot (445) - Copy.png",
+            "img11":"/src/assets/house-7/Screenshot (446) - Copy.png",
+            "img12":"/src/assets/house-7/Screenshot (447) - Copy.png",
+            "img13":"/src/assets/house-7/Screenshot (448) - Copy.png",
+            "img14":"/src/assets/house-7/Screenshot (449) - Copy.png",
+            "img15":"/src/assets/house-7/Screenshot (450) - Copy.png",
+            "img16":"/src/assets/house-7/Screenshot (437).png"
+          }
+      },
+      {
+        "property_id": "7",
+        "name": "Balinese Private Island",
+        "location": {
+          "address": "Private Island",
+          "city": "Bali",
+          "region": "Indonesia",
+          "postal_code": "80361",
+          "country": "Indonesia"
+        },
+        "type": "Private Island",
+        "price": 85000000,
+        "size": "25,000 sqft",
+        "land_size": "150 acres",
+        "bedrooms": 15,
+        "bathrooms": 20,
+        "features": {
+          "interior": [
+            "Open-plan living spaces with natural bamboo and teak finishes",
+            "Floor-to-ceiling windows with views of the ocean",
+            "Luxury master suite with private terrace and infinity-edge pool",
+            "Multiple guest villas with private balconies and sea views",
+            "Chef's kitchen with professional-grade appliances",
+            "Private yoga pavilion with sea breezes",
+            "Spa-inspired bathrooms with outdoor showers and soaking tubs",
+            "Home theater with surround sound and luxury seating"
+          ],
+          "exterior": [
+            "Three private beaches with white sand and crystal-clear waters",
+            "Infinity-edge pools throughout the island",
+            "Multiple outdoor lounge areas with fire pits and seating",
+            "Private marina with dock for yachts and seaplanes",
+            "Lush tropical gardens with exotic plants and wildlife",
+            "Private helipad for helicopter arrivals",
+            "Gated entrance with full-time security staff",
+            "Full solar energy system with backup generators"
+          ]
+        },
+        "amenities": {
+          "interior": [
+            "Private spa with sauna, steam room, and massage suites",
+            "State-of-the-art gym with personal trainers available",
+            "Fully equipped diving center with scuba gear",
+            "Personal chef offering gourmet meals",
+            "Luxury movie theater with 3D projection and surround sound",
+            "Dedicated office space with high-speed internet",
+            "Game room with billiards, darts, and arcade games",
+            "24/7 concierge and personal staff"
+          ],
+          "exterior": [
+            "Private beach activities including snorkeling, jet skiing, and paddleboarding",
+            "Exclusive boat tours around surrounding islands",
+            "Luxury yacht available for private charters",
+            "Multiple outdoor dining areas for private events",
+            "Private wildlife sanctuary for exotic animals",
+            "Helicopter tours of surrounding area",
+            "Outdoor showers with views of the ocean",
+            "24-hour security and staff service"
+          ]
+        },
+        "images":{
+        "img1":"/src/assets/house-9/Screenshot 2024-09-22 231129.png",
+        "img2":"/src/assets/house-9/Screenshot 2024-09-22 231148.png",
+        "img3":"/src/assets/house-9/Screenshot 2024-09-22 231225.png",
+        "img4":"/src/assets/house-9/Screenshot 2024-09-22 231257.png",
+        "img5":"/src/assets/house-9/Screenshot 2024-09-22 231336.png",
+        "img6":"/src/assets/house-9/Screenshot 2024-09-22 231344.png",
+        "img7":"/src/assets/house-9/Screenshot 2024-09-22 231357.png",
+        "img8":"/src/assets/house-9/Screenshot 2024-09-22 231452.png",
+        "img9":"/src/assets/house-9/Screenshot 2024-09-22 231501.png",
+        "img10":"/src/assets/house-9/Screenshot 2024-09-22 231516.png",
+        "img11":"/src/assets/house-9/Screenshot 2024-09-22 231530.png",
+        "img12":"/src/assets/house-9/Screenshot 2024-09-22 231541.png",
+        "img13":"/src/assets/house-9/Screenshot 2024-09-22 231604.png",
+        "img14":"/src/assets/house-9/Screenshot 2024-09-22 231633.png",
+        "img15":"/src/assets/house-9/Screenshot 2024-09-22 231652.png",
+        "img16":"/src/assets/house-9/Screenshot 2024-09-22 231743.png",
+        "img17":"/src/assets/house-9/Screenshot 2024-09-22 231815.png",
+        "img18":"/src/assets/house-9/Screenshot 2024-09-22 231841.png",
+        "img19":"/src/assets/house-9/Screenshot 2024-09-22 231857.png",
+        "img21":"/src/assets/house-9/Screenshot 2024-09-22 231937.png",
+        "img22":"/src/assets/house-9/Screenshot 2024-09-22 232027.png",
+        "img23":"/src/assets/house-9/Screenshot 2024-09-22 232057.png",
+        "img24":"/src/assets/house-9/Screenshot 2024-09-22 232124.png",
+        "img25":"/src/assets/house-9/Screenshot 2024-09-22 232257.png",
+        "img26":"/src/assets/house-9/Screenshot 2024-09-22 232307.png",
+        "img27":"/src/assets/house-9/Screenshot 2024-09-22 232407.png",
+        "img28":"/src/assets/house-9/Screenshot 2024-09-22 232429.png"
+      }
+      },
+      {
+        "property_id": "8",
+        "name": "Beverly Hills Modern Mansion",
+        "location": {
+          "address": "789 Sunset Boulevard",
+          "city": "Beverly Hills",
+          "state": "California",
+          "postal_code": "90210",
+          "country": "USA"
+        },
+        "type": "Mansion",
+        "price": 50000000,
+        "size": "20,000 sqft",
+        "land_size": "3 acres",
+        "bedrooms": 10,
+        "bathrooms": 12,
+        "features": {
+          "interior": [
+            "Open-concept living areas with glass walls and panoramic views",
+            "Chef's kitchen with custom cabinetry and marble countertops",
+            "Master suite with private balcony, his-and-hers walk-in closets, and spa bathroom",
+            "Home theater with Dolby Atmos sound and recliner seating",
+            "Private library with floor-to-ceiling bookshelves",
+            "Smart home technology for lighting, temperature, and security",
+            "Private gym with state-of-the-art equipment",
+            "Wine cellar with custom racks and tasting room"
+          ],
+          "exterior": [
+            "Infinity-edge pool with poolside cabanas",
+            "Outdoor kitchen with BBQ, pizza oven, and seating for 12",
+            "Expansive terraces with fire pits and lounge seating",
+            "Private tennis court with floodlighting for night games",
+            "Landscaped gardens with water features and walking paths",
+            "Gated entrance with 24/7 security monitoring",
+            "Three-car garage with electric vehicle charging stations",
+            "Private guest house with full kitchen and two bedrooms"
+          ]
+        },
+        "amenities": {
+          "interior": [
+            "Private spa with sauna, steam room, and massage suite",
+            "State-of-the-art gym with personal trainer",
+            "Luxury movie theater with projection screen and surround sound",
+            "Game room with pool table and bar",
+            "Personal chef for gourmet dining",
+            "Dedicated office space with high-speed internet",
+            "Wine cellar and tasting room",
+            "24-hour security and concierge service"
+          ],
+          "exterior": [
+            "Private tennis instructor available",
+            "Outdoor entertainment areas for large-scale events",
+            "Full-time groundskeeper for landscaping and maintenance",
+            "Access to nearby golf courses and country clubs",
+            "Luxury limousine service for transportation",
+            "Multiple outdoor dining spaces for entertaining",
+            "Helipad for quick access to Los Angeles",
+            "Outdoor bar with built-in seating and skyline views"
+          ]
+        },
+        "images":{
+        "img1":"/src/assets/house-4/Screenshot (363).png",
+        "img2":"/src/assets/house-4/Screenshot (364).png",
+        "img3":"/src/assets/house-4/Screenshot (365).png",
+        "img4":"/src/assets/house-4/Screenshot (366).png",
+        "img5":"/src/assets/house-4/Screenshot (367).png",
+        "img6":"/src/assets/house-4/Screenshot (368).png",
+        "img7":"/src/assets/house-4/Screenshot (369).png",
+        "img8":"/src/assets/house-4/Screenshot (370).png",
+        "img9":"/src/assets/house-4/Screenshot (371).png",
+        "img10":"/src/assets/house-4/Screenshot (372).png",
+        "img11":"/src/assets/house-4/Screenshot (373).png",
+        "img12":"/src/assets/house-4/Screenshot (374).png",
+        "img13":"/src/assets/house-4/Screenshot (378).png",
+        "img14":"/src/assets/house-4/Screenshot (379).png",
+        "img15":"/src/assets/house-4/Screenshot (382).png",
+        "img16":"/src/assets/house-4/Screenshot (383).png",
+        "img17":"/src/assets/house-4/Screenshot (385).png",
+        "img18":"/src/assets/house-4/Screenshot (386).png",
+        "img19":"/src/assets/house-4/Screenshot (387).png"
+      }
+      },
+      {
+        "property_id": "9",
+        "name": "Swiss Alps Ski Lodge",
+        "location": {
+          "address": "456 Alpine Road",
+          "city": "St. Moritz",
+          "region": "Graubünden",
+          "postal_code": "7500",
+          "country": "Switzerland"
+        },
+        "type": "Ski Lodge",
+        "price": 42000000,
+        "size": "12,000 sqft",
+        "land_size": "8 acres",
+        "bedrooms": 8,
+        "bathrooms": 10,
+        "features": {
+          "interior": [
+            "Rustic alpine design with timber and stone elements",
+            "Large open-plan living area with vaulted ceilings and fireplace",
+            "Gourmet kitchen with professional-grade appliances",
+            "Private ski-in, ski-out access to the slopes",
+            "Indoor heated pool with floor-to-ceiling windows",
+            "Spa-like master suite with private balcony",
+            "Home theater with Dolby Atmos sound and luxury seating",
+            "Private library with custom-built bookshelves"
+          ],
+          "exterior": [
+            "Expansive outdoor terraces with fire pits and seating",
+            "Hot tub with panoramic views of the Swiss Alps",
+            "Private hiking and ski trails through the property",
+            "Outdoor kitchen with BBQ, pizza oven, and bar seating",
+            "Helipad for private helicopter landings",
+            "Three-car heated garage with additional guest parking",
+            "Gated entrance with 24/7 security",
+            "Private sauna and steam room"
+          ]
+        },
+        "amenities": {
+          "interior": [
+            "Private spa with massage room and sauna",
+            "State-of-the-art gym with personal trainer",
+            "Home theater with recliner seating and surround sound",
+            "Game room with pool table and arcade games",
+            "Temperature-controlled wine cellar with tasting room",
+            "Dedicated office space with high-speed internet",
+            "Personal chef for gourmet dining",
+            "24/7 concierge and personal staff"
+          ],
+          "exterior": [
+            "Ski-in, ski-out access to private ski slopes",
+            "Outdoor entertainment area with fire pit and seating",
+            "Tennis court with mountain views",
+            "Private horse stables and equestrian trails",
+            "Full-time groundskeeper for landscaping and maintenance",
+            "Luxury snowmobiles and ATVs available for use",
+            "Private helicopter service for travel arrangements",
+            "Private hot tub and sauna with mountain views"
+          ]
+        },
+        "images":{
+        "img1":"/src/assets/house-6/Screenshot (405).png",
+        "img2":"/src/assets/house-6/Screenshot (407).png",
+        "img3":"/src/assets/house-6/Screenshot (408).png",
+        "img4":"/src/assets/house-6/Screenshot (409).png",
+        "img5":"/src/assets/house-6/Screenshot (410).png",
+        "img6":"/src/assets/house-6/Screenshot (412).png",
+        "img7":"/src/assets/house-6/Screenshot (413).png",
+        "img8":"/src/assets/house-6/Screenshot (414).png",
+        "img9":"/src/assets/house-6/Screenshot (415).png",
+        "img10":"/src/assets/house-6/Screenshot (416).png",
+        "img11":"/src/assets/house-6/Screenshot (417).png",
+        "img12":"/src/assets/house-6/Screenshot (418).png",
+        "img13":"/src/assets/house-6/Screenshot (424).png",
+        "img14":"/src/assets/house-6/Screenshot (425).png",
+        "img15":"/src/assets/house-6/Screenshot (426).png",
+        "img16":"/src/assets/house-6/Screenshot (432).png",
+        "img17":"/src/assets/house-6/Screenshot (428).png",
+        "img18":"/src/assets/house-6/Screenshot (431).png"
+      }
+      }
+  ]
