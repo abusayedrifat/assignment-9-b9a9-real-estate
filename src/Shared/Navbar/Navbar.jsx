@@ -16,7 +16,7 @@ const Navbar = () => {
         <NavLink to="/details" className={"hover:bg-gray-400 rounde-lg"}>Details</NavLink>
       </li>
       <li>
-        <NavLink to="/connect" className={"hover:bg-gray-400 rounde-lg"}>Connect</NavLink>
+        <NavLink to="/connect" className={"hover:bg-gray-400 rounde-lg"}>Profile</NavLink>
       </li>
     </>
   );
@@ -37,8 +37,8 @@ const Navbar = () => {
   }
   return (
     <div>
-      <div className="flex py-2 px-3 justify-between  items-center  border bg-[rgb(8,26,22)]">
-        <div className="flex items-center ">
+      <div className="flex py-2 px-3 justify-between  items-center bg-[rgb(8,26,22)]">
+        <div className="flex items-center">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
@@ -64,7 +64,7 @@ const Navbar = () => {
             </ul>
           </div>
           <Link to='/' className="lg:text-2xl title-text text-[rgb(234,237,240)] lg:text-right">
-               <div className=" flex flex-col ml-32  md:ml-0 lg:ml-0">
+               <div className=" flex flex-col">
               <span className="text-2xl  lg:text-4xl">LUXURY</span>
               <span className="text">PROPERTIES</span>
             </div>
@@ -77,7 +77,7 @@ const Navbar = () => {
         <div className="w-[70px] h-[70px]">
 
             {
-                user? <div className="flex gap-2 dropdown"><img onClick={handleLogOut} src={user.photoURL} className="w-full h-full object-cover rounded-full border border-red-700 text-white hover:cursor-pointer" alt="log Out" />  </div> : <NavLink to='/logIn' ><button className="btn font-bold lg:text-lg">LogIn</button></NavLink>
+                user? <img onClick={handleLogOut} src={user.photoURL} className=" h-full object-cover rounded-full border border-red-700 text-white hover:cursor-pointer" alt="log Out" /> : <NavLink to='/logIn' ><button className="btn font-bold lg:text-lg">LogIn</button></NavLink>
             }
            
           
