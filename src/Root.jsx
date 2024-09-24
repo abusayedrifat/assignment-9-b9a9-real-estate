@@ -5,7 +5,10 @@ import Footer from "./Shared/Footer/Footer";
 const Root = () => {
     return (
         <div>
-            <Navbar></Navbar>
+            <div className="">
+            <Navbar></Navbar>    
+            </div>
+            
             <Outlet></Outlet>
             <Footer></Footer>
         </div>

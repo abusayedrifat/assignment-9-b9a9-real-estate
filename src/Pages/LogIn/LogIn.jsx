@@ -57,12 +57,9 @@ const LogIn = () => {
             
         })
     }
-   
   
-    
-    
   return (
-    <div className="bg-[#F3F3F3] pb-[50px] pt-16 ">
+    <div className="bg-[#F3F3F3] pb-[50px] pt-16 p-text ">
       <div className="bg-white w-[70%] lg:w-[50%]  mx-auto px-10  lg: py-20  rounded-md">
         <h1 className="text-color text-3xl font-semibold text-center mb-16   ">
           Login your account
