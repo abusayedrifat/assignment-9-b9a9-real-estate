@@ -1,0 +1,6 @@
+.view-button:hover{
+    background-color: transparent;
+    border: 1px solid #C28563;
+    color: #0b5c52;
+    border-radius: 12px;
+}

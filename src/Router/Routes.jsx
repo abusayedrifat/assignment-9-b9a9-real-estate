@@ -27,7 +27,9 @@ const router = createBrowserRouter([
                 element:<Regster></Regster>
             },
             {
-                path:'/details',
+                
+                path:'/details/:property_id',
+                loader: ()=>fetch('/property.json'),
                 element:<PropertyDetails></PropertyDetails>
             },
             {

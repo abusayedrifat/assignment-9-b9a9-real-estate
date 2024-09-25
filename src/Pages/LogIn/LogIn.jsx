@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { AuthContext } from "../../Components/AuthProvider/AuthProvider";
 import { NavLink } from "react-router-dom";
 import { FaGoogle, FaGithub} from "react-icons/fa";
+import './login.css'
 const LogIn = () => {
     const {googleLogIn, gitHubLogIn, logIn} = useContext(AuthContext)
     // const navigate = useNavigate()
@@ -60,7 +61,7 @@ const LogIn = () => {
   
   return (
     <div className="bg-[#F3F3F3] pb-[50px] pt-16 p-text ">
-      <div className="bg-white w-[70%] lg:w-[50%]  mx-auto px-10  lg: py-20  rounded-md">
+      <div className="bg-white w-[90%] lg:w-[50%]  mx-auto px-10  lg: py-20  rounded-md">
         <h1 className="text-color text-3xl font-semibold text-center mb-16   ">
           Login your account
         </h1>
@@ -125,7 +126,7 @@ const LogIn = () => {
         </button>
         <button
           onClick={handleGitHubLogIn}
-          className="btn bg-transparent border-2 border-[#403F3F]"
+          className="btn bg-[#0b5c52] text-[#C28563] view-button"
         >
           <FaGithub className="text-xl"></FaGithub>
           LogIn with GitHub

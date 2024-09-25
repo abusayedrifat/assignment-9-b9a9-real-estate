@@ -3,7 +3,7 @@ import { NavLink, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Components/AuthProvider/AuthProvider";
 import { toast, ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
-
+import './register.css'
 const Regster = () => {
   const { createUser } = useContext(AuthContext);
   const navigate = useNavigate();
@@ -62,7 +62,7 @@ const Regster = () => {
   
   return (
     <div className="bg-[#F3F3F3] pb-[50px] border ">
-      <div className="bg-white h-full w-[70%] lg:w-[60%] border mx-auto my-28 px-10 lg:px-24 py-20  rounded-md">
+      <div className="bg-white h-full w-[90%] lg:w-[60%] border mx-auto my-28 px-10 lg:px-24 py-20  rounded-md">
         <h1 className="text-color text-3xl font-semibold text-center mb-12 ">
           Register your account
         </h1>
@@ -121,7 +121,7 @@ const Regster = () => {
             <input type="checkbox" name="" id="" />
             <label htmlFor="">Accept terms and condition</label>
           </div>
-          <button className="btn bg-[#403F3F] w-full text-white text-xl hover:text-[#403F3F]">
+          <button className="btn bg-[#0b5c52] text-[#C28563] view-button">
             Register
           </button>
         </form>
