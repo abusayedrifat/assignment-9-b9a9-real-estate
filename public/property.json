@@ -1,7 +1,7 @@
 [
     {
       "property_id": "1",
-      "status":"for sale",
+      "status":"For Sale",
       "name": "Oceanfront Malibu Estate",
       "location": {
         "address": "1234 Pacific Coast Hwy",
@@ -63,12 +63,14 @@
         "img3": "/src/assets/house-1/Screenshot (337).png",
         "img4": "/src/assets/house-1/Screenshot (338).png",
         "img5": "/src/assets/house-1/Screenshot (339).png"
-      }
+      },
+      "coverImg":"/src/assets/house-1/Screenshot (335).png"
+      
 
     },
     {
       "property_id": "2",
-      "status":"for sale",
+      "status":"For Sale",
       "name": "Mediterranean Hillside Villa",
       "location": {
         "address": "Via Marina Grande",
@@ -135,11 +137,12 @@
         "img7":"/src/assets/house-2/Screenshot (346).png",
         "img8":"/src/assets/house-2/Screenshot (347).png",
         "img9":"/src/assets/house-2/Screenshot (348).png"
-      }
+      },
+      "coverImg":"/src/assets/house-2/Screenshot (340).png"
     },
     {
       "property_id": "3",
-      "status":"for sale",
+      "status":"For Sale",
       "name": "Caribbean Private Island",
       "location": {
         "address": "Private Island",
@@ -216,11 +219,12 @@
         "img17":"/src/assets/house-8/Screenshot (467).png",
         "img18":"/src/assets/house-8/Screenshot (468).png",
         "img19":"/src/assets/house-8/Screenshot (469).png"
-      }
+      },
+      "coverImg":"/src/assets/house-8/Screenshot (464).png"
     },
     {
         "property_id": "4",
-        "status":"for sale",
+        "status":"For Sale",
         "name": "French Countryside Chateau",
         "location": {
           "address": "123 Rue de la Belle",
@@ -289,11 +293,12 @@
         "img7":"/src/assets/house-3/Screenshot (360).png",
         "img8":"/src/assets/house-3/Screenshot (361).png",
         "img9":"/src/assets/house-3/Screenshot (362).png"
-      }
+      },
+      "coverImg":"/src/assets/house-3/Screenshot (351).png"
       },
       {
         "property_id": "5",
-        "status":"for sale",
+        "status":"For Sale",
         "name": "Aspen Mountain Estate",
         "location": {
           "address": "789 Snowmass Drive",
@@ -369,11 +374,12 @@
         "img14":"/src/assets/house-5/Screenshot (402).png",
         "img15":"/src/assets/house-5/Screenshot (403).png",
         "img16":"/src/assets/house-5/Screenshot (404).png"
-      }
+      },
+      "coverImg":"/src/assets/house-5/Screenshot (388).png"
       },
       {
         "property_id": "6",
-        "status":"for sale",
+        "status":"For Sale",
         "name": "Dubai Marina Penthouse",
         "location": {
           "address": "456 Dubai Marina",
@@ -449,11 +455,12 @@
             "img14":"/src/assets/house-7/Screenshot (449) - Copy.png",
             "img15":"/src/assets/house-7/Screenshot (450) - Copy.png",
             "img16":"/src/assets/house-7/Screenshot (437).png"
-          }
+          },
+          "coverImg":"/src/assets/house-7/Screenshot (435) - Copy.png"
       },
       {
         "property_id": "7",
-        "status":"for sale",
+        "status":"For Sale",
         "name": "Balinese Private Island",
         "location": {
           "address": "Private Island",
@@ -540,11 +547,12 @@
         "img26":"/src/assets/house-9/Screenshot 2024-09-22 232307.png",
         "img27":"/src/assets/house-9/Screenshot 2024-09-22 232407.png",
         "img28":"/src/assets/house-9/Screenshot 2024-09-22 232429.png"
-      }
+      },
+      "coverImg":"/src/assets/house-9/Screenshot 2024-09-22 231225.png"
       },
       {
         "property_id": "8",
-        "status":"for sale",
+        "status":"For Sale",
         "name": "Beverly Hills Modern Mansion",
         "location": {
           "address": "789 Sunset Boulevard",
@@ -623,11 +631,12 @@
         "img17":"/src/assets/house-4/Screenshot (385).png",
         "img18":"/src/assets/house-4/Screenshot (386).png",
         "img19":"/src/assets/house-4/Screenshot (387).png"
-      }
+      },
+      "coverImg":"/src/assets/house-4/Screenshot (366).png"
       },
       {
         "property_id": "9",
-        "status":"for sale",
+        "status":"For Sale",
         "name": "Swiss Alps Ski Lodge",
         "location": {
           "address": "456 Alpine Road",
@@ -705,6 +714,7 @@
         "img16":"/src/assets/house-6/Screenshot (432).png",
         "img17":"/src/assets/house-6/Screenshot (428).png",
         "img18":"/src/assets/house-6/Screenshot (431).png"
-      }
+      },
+      "coverImg":"/src/assets/house-6/Screenshot (405).png"
       }
   ]

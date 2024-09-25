@@ -10,13 +10,13 @@ const Navbar = () => {
   const nav = (
     <>
       <li>
-        <NavLink to="/" className={"hover:bg-gray-400 rounde-lg"}>Home</NavLink>
+        <NavLink to="/" className={"hover:bg-[#1eac9b70] rounde-lg"}>Home</NavLink>
       </li>
       <li>
-        <NavLink to="/details" className={"hover:bg-gray-400 rounde-lg"}>Details</NavLink>
+        <NavLink to="/details" className={"hover:bg-[#1eac9b70] rounde-lg"}>Details</NavLink>
       </li>
       <li>
-        <NavLink to="/connect" className={"hover:bg-gray-400 rounde-lg"}>Profile</NavLink>
+        <NavLink to="/connect" className={"hover:bg-[#1eac9b70] rounde-lg"}>Profile</NavLink>
       </li>
     </>
   );
@@ -65,8 +65,8 @@ const Navbar = () => {
           </div>
           <Link to='/' className="lg:text-2xl title-text text-[rgb(234,237,240)] lg:text-right">
                <div className=" flex flex-col">
-              <span className="text-2xl  lg:text-4xl">LUXURY</span>
-              <span className="text">PROPERTIES</span>
+              <span className="text-2xl text-[#C28563]  lg:text-4xl">LUXURY</span>
+              <span className="text text-[#1eac9b70]">PROPERTIES</span>
             </div>
           </Link> 
          
