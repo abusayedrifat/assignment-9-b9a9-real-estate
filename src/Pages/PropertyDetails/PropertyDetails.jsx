@@ -25,7 +25,8 @@ const PropertyDetails = () => {
     status,
     coverImg,
   } = exactPropertyData;
-
+ console.log(exactPropertyData);
+ 
   return (
     <div>
       <div className="relative">
@@ -73,7 +74,7 @@ const PropertyDetails = () => {
             </div>  
       </div>
       <div>
-        
+
       </div>
     </div>
   );

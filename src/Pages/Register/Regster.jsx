@@ -121,7 +121,7 @@ const Regster = () => {
             <input type="checkbox" name="" id="" />
             <label htmlFor="">Accept terms and condition</label>
           </div>
-          <button className="btn bg-[#0b5c52] text-[#C28563] view-button">
+          <button className="w-full btn bg-[#0b5c52] text-[#C28563] view-button">
             Register
           </button>
         </form>

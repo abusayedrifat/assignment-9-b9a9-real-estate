@@ -6,7 +6,9 @@
 }
 a.active{
     
-    background-color:rgb(197, 197, 197) ;
+    background:none ;
+    
+
 }
 /* .mobile-view{
     left: 100%;

@@ -90,8 +90,7 @@ const LogIn = () => {
               required
             />
           </div>
-        
-                <button className="btn bg-[#403F3F] w-full text-white text-xl hover:text-[#403F3F]">
+        <button className=" w-full btn bg-[#0b5c52] text-[#C28563] view-button">
             Log In
           </button>
         
@@ -119,7 +118,7 @@ const LogIn = () => {
         <div className="flex flex-col justify-center mx-auto gap-4 w-[70%] lg:w-[50%]">
             <button
           onClick={handleGoogleLogIn}
-          className="btn bg-transparent border-2 border-[#403F3F]"
+          className="btn bg-[#0b5c52] text-[#C28563] view-button"
         >
           <FaGoogle className="text-xl"></FaGoogle>
           LogIn with Google
