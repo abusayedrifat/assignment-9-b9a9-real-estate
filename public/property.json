@@ -58,13 +58,13 @@
         ]
       },
       "images":{
-        "img1": "./src/assets/house-1/Screenshot (335).png",
-        "img2": "./src/assets/house-1/Screenshot (336).png",
-        "img3": "./src/assets/house-1/Screenshot (337).png",
-        "img4": "./src/assets/house-1/Screenshot (338).png",
-        "img5": "./src/assets/house-1/Screenshot (339).png"
+        "img1": "/src/assets/house-1/Screenshot335.png",
+        "img2": "/src/assets/house-1/Screenshot (336).png",
+        "img3": "/src/assets/house-1/Screenshot (337).png",
+        "img4": "/src/assets/house-1/Screenshot (338).png",
+        "img5": "/src/assets/house-1/Screenshot (339).png"
       },
-      "coverImg":"./src/assets/house-1/Screenshot (335).png"
+      "coverImg":"/public/house-1/Screenshot335.png"
       
 
     },

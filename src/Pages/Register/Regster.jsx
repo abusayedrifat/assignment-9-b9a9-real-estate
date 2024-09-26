@@ -4,18 +4,18 @@ import { AuthContext } from "../../Components/AuthProvider/AuthProvider";
 import { toast, ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 import './register.css'
+import { RiEyeCloseFill } from "react-icons/ri";
+import { FaEye } from "react-icons/fa";
 const Regster = () => {
   const { createUser } = useContext(AuthContext);
   const navigate = useNavigate();
 
   const [submitError, setSubmitError] = useState("");
-//   const [showPassword,  setShowPassword] = useState(false)
+  const [showPassword,  setShowPassword] = useState(false)
 
   const handleRegister = (e) => {
     e.preventDefault();
-
     const form = new FormData(e.currentTarget);
-
     const name = form.get("name");
     const email = form.get("email");
     const password = form.get("password");
@@ -59,6 +59,7 @@ const Regster = () => {
         return;
       }
     };
+
   
   return (
     <div className="bg-[#F3F3F3] pb-[50px] border ">
@@ -105,16 +106,20 @@ const Regster = () => {
             <label className="label">
               <span className="label-text">Password</span>
             </label>
-            <div className="flex relative">
+            <div className="flex relative items-center">
               <input
                 onKeyUp={handlePassword}
-                type="password"
+                type={showPassword?"text":"password"}
                 name="password"
                 placeholder="Enter your password"
                 className="input bg-[#F3F3F3] input-bordered w-full"
                 required
               />
-              <span></span>
+              <span onClick={()=>setShowPassword(!showPassword)} className="absolute right-4 cursor-pointer text-xl text-[#cb6b37] hover:text-[#1d5b54] ">
+                {
+                  showPassword?<RiEyeCloseFill></RiEyeCloseFill>:<FaEye></FaEye>
+                }
+                  </span>
             </div>
           </div>
           <div>
@@ -128,7 +133,7 @@ const Regster = () => {
         <div className="text-center mt-8 text-[#706F6F] font-semibold">
           <p>
             Already Have An Account?
-            <NavLink to="/logIn" className="text-[#F75B5F]">
+            <NavLink to="/logIn" className="text-[#cb6b37] hover:text-[#1d5b54]">
               LogIn
             </NavLink>
           </p>

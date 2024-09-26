@@ -1,5 +1,5 @@
 .heading{
-    background-image: linear-gradient(135deg,#ea6118,#cb6b37,#2a756c, #d6d6d6);
+    background-image: linear-gradient(135deg,#ea6118,#cb6b37,#1e9f90, #d6d6d6d2);
     -webkit-background-clip: text;
     color: transparent;
 }
@@ -10,4 +10,7 @@
     padding: 10px;
     border: 1px solid rgba(209, 213, 219, 0.472);
     border-radius: 12px;
+}
+.shading{
+    background-image: linear-gradient(180deg,rgba(0, 0, 0, 0.525),rgba(255, 255, 255, 0));
 }

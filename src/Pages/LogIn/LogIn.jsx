@@ -1,14 +1,16 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { AuthContext } from "../../Components/AuthProvider/AuthProvider";
 import { NavLink } from "react-router-dom";
 import { FaGoogle, FaGithub} from "react-icons/fa";
+import { RiEyeCloseFill } from "react-icons/ri";
+import { FaEye } from "react-icons/fa";
 import './login.css'
 const LogIn = () => {
     const {googleLogIn, gitHubLogIn, logIn} = useContext(AuthContext)
     // const navigate = useNavigate()
   
     // console.log(location);
-    
+    const [showPassword,  setShowPassword] = useState(false)
     const handlelogIn = e =>{
 
         e.preventDefault();
@@ -82,13 +84,20 @@ const LogIn = () => {
             <label className="label">
               <span className="label-text">Password</span>
             </label>
-            <input
-              type="password"
-              name="password"
-              placeholder="Enter your password"
-              className="input bg-[#F3F3F3] input-bordered"
-              required
-            />
+            <div className="flex relative items-center">
+              <input
+                type={showPassword?"text":"password"}
+                name="password"
+                placeholder="Enter your password"
+                className="input bg-[#F3F3F3] input-bordered w-full"
+                required
+              />
+              <span onClick={()=>setShowPassword(!showPassword)} className="absolute right-4 cursor-pointer text-xl text-[#cb6b37] hover:text-[#1d5b54] ">
+                {
+                  showPassword?<RiEyeCloseFill></RiEyeCloseFill>:<FaEye></FaEye>
+                }
+                  </span>
+            </div>
           </div>
         <button className=" w-full btn bg-[#0b5c52] text-[#C28563] view-button">
             Log In
@@ -99,7 +108,7 @@ const LogIn = () => {
         <div className="text-center mt-8 text-[#706F6F] font-semibold">
             <p>
               Don&apos;t Have An Account?{" "}
-              <NavLink to="/register" className="text-[#F75B5F]">
+              <NavLink to="/register" className="text-[#cb6b37] hover:text-[#1d5b54]">
                 Register
               </NavLink>
             </p>

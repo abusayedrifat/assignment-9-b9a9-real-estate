@@ -41,12 +41,12 @@ const Villa = ({ property }) => {
         <p>
           Type : <b>{type}</b>
         </p>
-        <p> Living area : {size} </p>
-        <p> Land Size : {land_size} </p>
+        <p> Living area : <b>{size}</b>  </p>
+        <p> Land Size :  <b>{land_size}</b> </p>
         <p>
           <span>
             
-            {bedrooms} Bedrooms & {bathrooms} Bathrooms
+            <b>{bedrooms}</b> Bedrooms & <b>{bathrooms}</b> Bathrooms
           </span>
         </p>
         <p className="flex gap-2 items-center text-[#C28563]">
