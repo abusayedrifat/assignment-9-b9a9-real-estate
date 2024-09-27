@@ -13,7 +13,7 @@ const Home = () => {
   const propertiesData = useLoaderData();
   return (
     <div>
-      <Helmet> <title>LUXURY|Home</title>  </Helmet>
+      <Helmet> <title>LUXURY | Home</title>  </Helmet>
       <Slider></Slider>
 
       <InfoCard></InfoCard>
