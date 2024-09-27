@@ -84,7 +84,7 @@ const Regster = () => {
               <span className="label-text">Photo URL</span>
             </label>
             <input
-              type="file"
+              type="url"
               name="photoURL"
               placeholder="Enter your photo url"
               className="input bg-[#F3F3F3] input-bordered"
@@ -152,7 +152,7 @@ const Regster = () => {
       {submitError && (
         <div>
           <ToastContainer
-            position="top-center"
+            position="top-right"
             autoClose={5000}
             hideProgressBar={false}
             newestOnTop={false}
@@ -168,7 +168,7 @@ const Regster = () => {
       )}
       <div>
         <ToastContainer
-          position="top-center"
+          position="top-right"
           autoClose={5000}
           hideProgressBar={false}
           newestOnTop={false}
