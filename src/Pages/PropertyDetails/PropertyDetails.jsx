@@ -1,10 +1,14 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import "./propertyDetails.css";
-import { useEffect } from "react";
+// import { useEffect } from "react";
 
 
 import { SlLocationPin } from "react-icons/sl";
 import { HiCurrencyDollar } from "react-icons/hi";
+import { BiArea } from "react-icons/bi";
+import { IoBedOutline } from "react-icons/io5";
+import { PiBathtub } from "react-icons/pi";
+import { GrHome } from "react-icons/gr";
 
 const PropertyDetails = () => {
   const allData = useLoaderData();
@@ -31,9 +35,9 @@ const PropertyDetails = () => {
   } = exactPropertyData;
  console.log(exactPropertyData);
 
- useEffect(()=>{
-    window.scrollTo(0,0);
- },[])
+//  useEffect(()=>{
+//     window.scrollTo(0,0);
+//  },[])
  
   return (
     <div>
@@ -82,21 +86,36 @@ const PropertyDetails = () => {
             </div>  
       </div>
 
-      <div className="w-[40%] ml-12 lg:ml-48 space-y-5 title-text">
+      <div className="w-[50%] lg:w-[40%] ml-12 mr-16 lg:ml-48 space-y-5 title-text text-[#313131]">
       <button className="btn bg-[#0b5c52] text-[#C28563] rounded-none"> {status} </button>
-      <div className="border-t w-full"></div>
-      <p className="text-4xl"> $ {price} </p>
+      <div className="border-t border-[#969696] w-full"></div>
+      <p className=" text-4xl lg:text-5xl"> $ {price} </p>
       </div>
 
-      <div className="my-16 flex flex-col lg:flex-row justify-between mx-12 lg:mx-48">
-          <div className="title-text">
+      <div className="my-16 flex flex-col lg:flex-row justify-between mx-12 lg:mx-48 text-[#313131] space-y-10 ">
+          <div className="title-text lg:mt-20">
               
-              <p className="text-4xl">{location.address}</p>
-              <p className="text-3xl"> <span>{location.city},</span> <span> {location.country} </span> </p>
-          </div>
-          <div className="border-l hidden lg:block h-80"></div>
-          <div>
+              <p className="text-3xl lg:text-4xl">{location.address}</p>
+              <p className="text-xl lg:text-2xl"> <span>{location.city},</span> <span> {location.country} </span> </p>
 
+          </div>
+          <div className="border-l hidden lg:block h-80 border-[#969696] lg:ml-52"></div>
+
+          <div className="flex items-center gap-8 lg:gap-24 ">
+              <div className="text-4xl text-[#545454] lg:6xl space-y-5">
+                
+                <IoBedOutline></IoBedOutline>
+                <PiBathtub></PiBathtub>
+                <GrHome></GrHome>
+                <BiArea></BiArea>
+                
+              </div>
+              <div className="space-y-7 text-xl">
+                <p><b> {bedrooms} </b> Bedrooms</p>
+                <p> <b> {bathrooms} </b> Bathrooms </p>
+                <p> <b> {size} </b> Living Area </p>
+                <p> <b> {land_size} </b>Land Size </p>
+              </div>
           </div>
       </div>
 
