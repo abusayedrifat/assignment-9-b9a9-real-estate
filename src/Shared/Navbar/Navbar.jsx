@@ -19,7 +19,7 @@ const Navbar = () => {
         </NavLink>
       </li>
       <li>
-        <NavLink to="/connect" className={"hover:bg-[#1eac9b70] rounde-lg"}>
+        <NavLink to="/profile" className={"hover:bg-[#1eac9b70] rounde-lg"}>
           Profile
         </NavLink>
       </li>
