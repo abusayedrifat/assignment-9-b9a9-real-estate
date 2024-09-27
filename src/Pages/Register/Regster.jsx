@@ -19,13 +19,13 @@ const Regster = () => {
     const name = form.get("name");
     const email = form.get("email");
     const password = form.get("password");
-    const photoUrl = form.get("photoURL");
-    console.log(name, photoUrl);
+    // const photoUrl = form.get("photoURL");
+    console.log(name);
 
     e.target.name.value = "";
     e.target.email.value = "";
     e.target.password.value = "";
-    e.target.photoUrl.value = "";
+    // e.target.photoUrl.value = "";
 
     createUser(email, password)
       .then((result) => {
@@ -76,6 +76,7 @@ const Regster = () => {
               name="name"
               placeholder="Enter your name"
               className="input bg-[#F3F3F3] input-bordered"
+              required
             />
           </div>
           <div className="form-control space-y-3">
@@ -83,10 +84,11 @@ const Regster = () => {
               <span className="label-text">Photo URL</span>
             </label>
             <input
-              type="url"
+              type="file"
               name="photoURL"
               placeholder="Enter your photo url"
               className="input bg-[#F3F3F3] input-bordered"
+              accept="image/*"
             />
           </div>
           <div className="form-control space-y-3">
