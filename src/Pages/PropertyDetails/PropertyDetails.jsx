@@ -28,6 +28,7 @@ const PropertyDetails = () => {
     name,
     status,
     coverImg,
+    description,
   } = exactPropertyData;
   console.log(exactPropertyData);
 
@@ -37,13 +38,23 @@ const PropertyDetails = () => {
 
   return (
     <div>
-      <Helmet><title>LUXURY | Property-Details</title></Helmet>
+      <Helmet>
+        <title>LUXURY | Property-Details</title>
+      </Helmet>
       <div className="relative">
         <img src={coverImg} alt="" />
         <div className=" shading h-full w-full absolute top-0"></div>
         <h1 className=" absolute heading  text-center top-[25%] lg:top-[30%] left-[50%] -translate-x-[50%] title-text lg:font-extrabold text-4xl lg:text-7xl py-2">
           {name}
         </h1>
+      </div>
+      <div className="h-screen pt-24 lg:pt-48 bg-[#08413a] text-[#C28563]">
+        <h1 className="text-center  title-text font-extrabold text-4xl text-[#0b0b0b] lg:text-6xl py-8">
+          Description
+        </h1>
+        <p className="w-[80%] lg:w-[70%] mx-auto text-center poppi font-[300]  lg:text-lg text-[#C28563] lg:leading-9">
+          {description}
+        </p>
       </div>
       <div className="pt-20 pb-10 px-3 ">
         <h1 className="  heading  text-center  title-text font-extrabold text-4xl lg:text-7xl py-8">

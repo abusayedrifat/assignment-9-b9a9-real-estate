@@ -16,6 +16,7 @@
       "land_size": "2 acres",
       "bedrooms": 7,
       "bathrooms": 9,
+      "description":"Experience coastal living at its finest with this spectacular Malibu Beachfront Estate. Featuring 10,000 square feet of luxurious living space, this property boasts stunning ocean views, direct beach access, and modern architecture that perfectly blends indoor and outdoor spaces. The estate offers an infinity-edge pool, gourmet kitchen, private home theater, and expansive terraces that invite relaxation. With its beachfront location, exclusive privacy, and high-end amenities, this estate is a true California paradise.",
       "features": {
         "interior": [
           "Expansive great room with floor-to-ceiling windows. Open-concept gourmet kitchen with marble countertops and professional-grade appliances. Custom wine cellar with capacity for 1,000 bottles. Private home theater with reclining leather seating. Spa-like master bathroom with soaking tub and steam shower. Private office with built-in bookcases and ocean views. Smart home technology with full automation of lighting, climate control, and security. Hardwood floors throughout, with imported stone in bathrooms."
@@ -60,6 +61,7 @@
       "land_size": "1.5 acres",
       "bedrooms": 6,
       "bathrooms": 8,
+      "description":" Nestled in the heart of the Italian countryside, this Tuscany Countryside Villa offers a perfect blend of old-world charm and modern luxury. Spanning 15,000 square feet, this estate includes 8 bedrooms, hand-crafted Italian interiors, a wine cellar, and breathtaking views of rolling vineyards. The villa’s extensive grounds feature olive groves, a private vineyard, and an outdoor dining terrace. With a pool, spa, and expansive gardens, this property offers the quintessential Italian lifestyle, perfect for tranquil living or entertaining guests.",
       "features": {
         "interior": [
           "Handcrafted marble floors with intricate inlays",
@@ -132,6 +134,7 @@
       "land_size": "120 acres",
       "bedrooms": 10,
       "bathrooms": 12,
+      "description":"Escape to your very own Private Caribbean Island Retreat, where luxury meets untouched natural beauty. This exclusive 12-acre island features a stunning 15,000 square foot estate with open-air living spaces, multiple beachfront villas, and panoramic views of crystal-clear waters. The island offers unparalleled privacy with luxury amenities including a yacht dock, infinity pool, private boat tours, and water sports activities. Whether for a personal sanctuary or hosting guests, this island is the ultimate destination for an exclusive tropical getaway.",
       "features": {
         "interior": [
           "Expansive open-plan living areas with floor-to-ceiling windows",
@@ -214,6 +217,7 @@
         "land_size": "30 acres",
         "bedrooms": 12,
         "bathrooms": 14,
+        "description":"Indulge in luxury living on the French Riviera with this breathtaking Seaside Mansion. Located on a cliffside overlooking the Mediterranean Sea, this 18,000 square foot property combines traditional French architecture with state-of-the-art modern amenities. The mansion offers lavish suites, a gourmet kitchen, a wine cellar, and elegant interior details. Outdoor spaces include manicured gardens, a pool, private beach access, and a helipad. Ideal for those seeking a luxurious European lifestyle with views of the French coastline.",
         "features": {
           "interior": [
             "Grand ballroom with intricate ceiling frescoes",
@@ -288,6 +292,7 @@
         "land_size": "10 acres",
         "bedrooms": 9,
         "bathrooms": 11,
+        "description":"This ultra-modern Beverly Hills Mansion is the epitome of high-end contemporary design. Encompassing 20,000 square feet of open-concept living space, this home features floor-to-ceiling glass walls that offer panoramic views of Los Angeles. The mansion includes a gourmet chef’s kitchen, a private theater, an infinity pool, and a master suite with a spa-like bathroom. With expansive outdoor terraces, a tennis court, and a private guest house, this mansion is perfect for those who desire the height of luxury and privacy in the hills of California.",
         "features": {
           "interior": [
             "Open-plan living area with vaulted timber ceilings",
@@ -369,6 +374,7 @@
         "land_size": "N/A",
         "bedrooms": 8,
         "bathrooms": 10,
+        "description":"Discover the pinnacle of urban living with this exclusive New York City Penthouse. Located atop a skyscraper, this 10,000 square foot residence offers panoramic views of the Manhattan skyline and Central Park. The penthouse features floor-to-ceiling windows, a custom-designed kitchen, private gym, and spa facilities. The expansive outdoor terrace includes a lounge area and private garden, perfect for entertaining or relaxation. With access to premium building services and facilities, this penthouse offers the ultimate New York lifestyle in the heart of the city.",
         "features": {
           "interior": [
             "Full-floor penthouse with 360-degree panoramic views",
@@ -451,6 +457,7 @@
         "land_size": "150 acres",
         "bedrooms": 15,
         "bathrooms": 20,
+        "description":"Set against the breathtaking backdrop of the Swiss Alps, this luxurious Ski Lodge in St. Moritz offers the ultimate alpine retreat. The 12,000 square foot lodge features rustic timber interiors, a private indoor pool, and ski-in, ski-out access to the slopes. With eight bedrooms, a gourmet kitchen, and spacious entertainment areas, this property is ideal for winter getaways. The expansive outdoor terrace, hot tub, and private trails offer relaxation and adventure in the heart of one of Europes most prestigious ski destinations.",
         "features": {
           "interior": [
             "Open-plan living spaces with natural bamboo and teak finishes",
@@ -544,6 +551,7 @@
         "land_size": "3 acres",
         "bedrooms": 10,
         "bathrooms": 12,
+        "description":"Located on the iconic Palm Jumeirah, this exclusive Dubai Villa offers unparalleled luxury and modern design. Spanning 18,000 square feet, the villa features contemporary architecture, vast open living spaces, and panoramic ocean views. It includes a private infinity pool, luxury home theater, gym, and multiple entertainment areas. The villa’s private beachfront and dock provide direct access to the Gulfs tranquil waters. With 24-hour security and concierge service, this property offers the ultimate luxury lifestyle in one of the worlds most prestigious locales.",
         "features": {
           "interior": [
             "Open-concept living areas with glass walls and panoramic views",
@@ -628,6 +636,7 @@
         "land_size": "8 acres",
         "bedrooms": 8,
         "bathrooms": 10,
+        "description":" Nestled in the picturesque Aspen mountains, this stunning 20,000 square foot Estate offers breathtaking views, luxurious interiors, and top-tier amenities. The property features a private ski slope, indoor pool, spa, and multiple outdoor entertaining areas. Its warm, rustic design includes a chefs kitchen, home theater, and a master suite with a fireplace. Ideal for nature lovers and ski enthusiasts, this estate offers year-round enjoyment with access to private hiking trails and winter sports facilities.",
         "features": {
           "interior": [
             "Rustic alpine design with timber and stone elements",

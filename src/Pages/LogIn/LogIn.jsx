@@ -35,6 +35,7 @@ const LogIn = () => {
 
     googleLogIn()
       .then((result) => {
+        navigate(location?.state ? location.state : "/");
         console.log(result);
       })
       .catch((error) => {
@@ -46,6 +47,7 @@ const LogIn = () => {
 
     gitHubLogIn()
       .then((result) => {
+        navigate(location?.state ? location.state : "/");
         console.log(result);
       })
       .catch((error) => {
