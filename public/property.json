@@ -18,53 +18,28 @@
       "bathrooms": 9,
       "features": {
         "interior": [
-          "Expansive great room with floor-to-ceiling windows",
-          "Open-concept gourmet kitchen with marble countertops and professional-grade appliances",
-          "Custom wine cellar with capacity for 1,000 bottles",
-          "Private home theater with reclining leather seating",
-          "Spa-like master bathroom with soaking tub and steam shower",
-          "Private office with built-in bookcases and ocean views",
-          "Smart home technology with full automation of lighting, climate control, and security",
-          "Hardwood floors throughout, with imported stone in bathrooms"
+          "Expansive great room with floor-to-ceiling windows. Open-concept gourmet kitchen with marble countertops and professional-grade appliances. Custom wine cellar with capacity for 1,000 bottles. Private home theater with reclining leather seating. Spa-like master bathroom with soaking tub and steam shower. Private office with built-in bookcases and ocean views. Smart home technology with full automation of lighting, climate control, and security. Hardwood floors throughout, with imported stone in bathrooms."
         ],
         "exterior": [
-          "Infinity-edge pool overlooking the Pacific Ocean",
-          "Direct private beach access with a secluded beachfront cabana",
-          "Outdoor kitchen and BBQ area with built-in seating for 12",
-          "Expansive terrace with fire pits and lounge seating",
-          "Landscaped gardens with palm trees and native plants",
-          "Private gated entrance with 24/7 security monitoring",
-          "Three-car garage with additional guest parking",
-          "Detached guesthouse with two bedrooms and a full kitchen"
+          "Infinity-edge pool overlooking the Pacific Ocean. Direct private beach access with a secluded beachfront cabana. Outdoor kitchen and BBQ area with built-in seating for 12. Expansive terrace with fire pits and lounge seating. Landscaped gardens with palm trees and native plants. Private gated entrance with 24/7 security monitoring. Three-car garage with additional guest parking. Detached guesthouse with two bedrooms and a full kitchen."
         ]
       },
       "amenities": {
         "interior": [
-          "Private spa with massage room and sauna",
-          "State-of-the-art gym with panoramic ocean views",
-          "Temperature-controlled wine tasting room",
-          "Game room with pool table and custom bar",
-          "Fully equipped business center with high-speed internet",
-          "Walk-in closets with custom shelving and lighting",
-          "Dedicated laundry room with commercial-grade machines"
+          "Private spa with massage room and sauna. State-of-the-art gym with panoramic ocean views. Temperature-controlled wine tasting room. Game room with pool table and custom bar. Fully equipped business center with high-speed internet. Walk-in closets with custom shelving and lighting. Dedicated laundry room with commercial-grade machines."
         ],
         "exterior": [
-          "Private yacht dock available nearby",
-          "Full-time groundskeeper and maintenance staff",
-          "Outdoor shower with hot and cold water",
-          "Helipad for quick access to Los Angeles",
-          "Infinity pool with integrated spa",
-          "Multiple outdoor dining areas for large-scale entertaining"
+          "Private yacht dock available nearby. Full-time groundskeeper and maintenance staff. Outdoor shower with hot and cold water. Helipad for quick access to Los Angeles. Infinity pool with integrated spa. Multiple outdoor dining areas for large-scale entertaining."
         ]
       },
       "images":{
-        "img1": "/src/assets/house-1/Screenshot335.png",
-        "img2": "/src/assets/house-1/Screenshot (336).png",
-        "img3": "/src/assets/house-1/Screenshot (337).png",
-        "img4": "/src/assets/house-1/Screenshot (338).png",
-        "img5": "/src/assets/house-1/Screenshot (339).png"
+        "img1": "https://imgur.com/gsx7O3c.png",
+        "img2": "https://imgur.com/9S7l8oo.png",
+        "img3": "https://imgur.com/RQ2qN2P.png",
+        "img4": "https://imgur.com/76Pxr4a.png",
+        "img5": "https://imgur.com/26Yau0X.png"
       },
-      "coverImg":"/public/house-1/Screenshot335.png"
+      "coverImg":"https://imgur.com/gsx7O3c.png"
       
 
     },
@@ -128,17 +103,17 @@
         ]
       },
       "images":{
-        "img1":"/src/assets/house-2/Screenshot (340).png",
-        "img2":"/src/assets/house-2/Screenshot (341).png",
-        "img3":"/src/assets/house-2/Screenshot (342).png",
-        "img4":"/src/assets/house-2/Screenshot (343).png",
-        "img5":"/src/assets/house-2/Screenshot (344).png",
-        "img6":"/src/assets/house-2/Screenshot (345).png",
-        "img7":"/src/assets/house-2/Screenshot (346).png",
-        "img8":"/src/assets/house-2/Screenshot (347).png",
-        "img9":"/src/assets/house-2/Screenshot (348).png"
+        "img1":"https://imgur.com/bQCbjvn.png",
+        "img2":"https://imgur.com/QNYG7wX.png",
+        "img3":"https://imgur.com/HmVfEm4.png",
+        "img4":"https://imgur.com/6eGTQJG.png",
+        "img5":"https://imgur.com/o5m6znB.png",
+        "img6":"https://imgur.com/anF2fX5.png",
+        "img7":"https://imgur.com/G0tlOLd.png",
+        "img8":"https://imgur.com/tUUWIr9.png",
+        "img9":"https://imgur.com/czJpO94.png"
       },
-      "coverImg":"/src/assets/house-2/Screenshot (340).png"
+      "coverImg":"https://imgur.com/bQCbjvn.png"
     },
     {
       "property_id": "3",
@@ -200,27 +175,27 @@
         ]
       },
       "images":{
-        "img1":"/src/assets/house-8/Screenshot (451).png",
-        "img2":"/src/assets/house-8/Screenshot (452).png",
-        "img3":"/src/assets/house-8/Screenshot (453).png",
-        "img4":"/src/assets/house-8/Screenshot (454).png",
-        "img5":"/src/assets/house-8/Screenshot (455).png",
-        "img6":"/src/assets/house-8/Screenshot (456).png",
-        "img7":"/src/assets/house-8/Screenshot (457).png",
-        "img8":"/src/assets/house-8/Screenshot (458).png",
-        "img9":"/src/assets/house-8/Screenshot (459).png",
-        "img10":"/src/assets/house-8/Screenshot (460).png",
-        "img11":"/src/assets/house-8/Screenshot (461).png",
-        "img12":"/src/assets/house-8/Screenshot (462).png",
-        "img13":"/src/assets/house-8/Screenshot (463).png",
-        "img14":"/src/assets/house-8/Screenshot (464).png",
-        "img15":"/src/assets/house-8/Screenshot (465).png",
-        "img16":"/src/assets/house-8/Screenshot (466).png",
-        "img17":"/src/assets/house-8/Screenshot (467).png",
-        "img18":"/src/assets/house-8/Screenshot (468).png",
-        "img19":"/src/assets/house-8/Screenshot (469).png"
+        "img1":"https://imgur.com/7LIb3Hi.png",
+        "img2":"https://imgur.com/aSG90EG.png",
+        "img3":"https://imgur.com/DWGx6AX.png",
+        "img4":"https://imgur.com/lxaKN9a.png",
+        "img5":"https://imgur.com/uOoX2me.png",
+        "img6":"https://imgur.com/O2aLvAo.png",
+        "img7":"https://imgur.com/b2lpPrX.png",
+        "img8":"https://imgur.com/JRKmBVY.png",
+        "img9":"https://imgur.com/MmqaAKL.png",
+        "img10":"https://imgur.com/YVzpUIT.png",
+        "img11":"https://imgur.com/Ahzzpxu.png",
+        "img12":"https://imgur.com/dr6BMHR.png",
+        "img13":"https://imgur.com/DE986MT.png",
+        "img14":"https://imgur.com/y6XQbrR.png",
+        "img15":"https://imgur.com/ofK4Iue.png",
+        "img16":"https://imgur.com/NRxIwVH.png",
+        "img17":"https://imgur.com/QEjbw9F.png",
+        "img18":"https://imgur.com/cRGKNwt.png",
+        "img19":"https://imgur.com/8in18BI.png"
       },
-      "coverImg":"/src/assets/house-8/Screenshot (464).png"
+      "coverImg":"https://imgur.com/ofK4Iue.png"
     },
     {
         "property_id": "4",

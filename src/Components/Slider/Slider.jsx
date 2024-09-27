@@ -1,7 +1,7 @@
 // import PropTypes from "prop-types";
 import 'animate.css';
 import './sliderContent.css'
-import sliderImg1 from "../../../public/house-1/Screenshot335.png"; 
+import sliderImg1 from "../../assets/house-1/Screenshot335.png"; 
 import sliderImg2 from "../../assets/house-2/Screenshot (340).png"; 
 import sliderImg3 from "../../assets/house-4/Screenshot (366).png"; 
 import sliderImg4 from "../../assets/house-5/Screenshot (388).png"; 

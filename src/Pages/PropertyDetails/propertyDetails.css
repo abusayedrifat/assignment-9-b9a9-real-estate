@@ -12,5 +12,5 @@
     border-radius: 12px;
 }
 .shading{
-    background-image: linear-gradient(180deg,rgba(0, 0, 0, 0.525),rgba(255, 255, 255, 0));
+    background-image: linear-gradient(180deg,rgba(0, 0, 0, 0.393),rgba(28, 28, 28, 0.055));
 }
