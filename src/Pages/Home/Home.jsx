@@ -4,6 +4,7 @@ import InfoCard from "../../Components/Info-card/InfoCard";
 import AboutUs from "../../Components/AboutUs/AboutUs";
 import Villa from "../../Components/all properties/Villa/Villa";
 import { useLoaderData } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 const Home = () => {
   useEffect(() => {
@@ -12,6 +13,7 @@ const Home = () => {
   const propertiesData = useLoaderData();
   return (
     <div>
+      <Helmet> <title>LUXURY|Home</title>  </Helmet>
       <Slider></Slider>
 
       <InfoCard></InfoCard>

@@ -5,6 +5,7 @@ import { BiArea } from "react-icons/bi";
 import { IoBedOutline } from "react-icons/io5";
 import { PiBathtub } from "react-icons/pi";
 import { GrHome } from "react-icons/gr";
+import { Helmet } from "react-helmet-async";
 
 const PropertyDetails = () => {
   const allData = useLoaderData();
@@ -36,6 +37,7 @@ const PropertyDetails = () => {
 
   return (
     <div>
+      <Helmet><title>LUXURY | Property-Details</title></Helmet>
       <div className="relative">
         <img src={coverImg} alt="" />
         <div className=" shading h-full w-full absolute top-0"></div>
@@ -100,7 +102,7 @@ const PropertyDetails = () => {
         <div className="border-l hidden lg:block h-80 border-[#969696] lg:ml-52"></div>
 
         <div className="flex items-center gap-8 lg:gap-24 ">
-          <div className="text-4xl text-[#545454] lg:6xl space-y-5">
+          <div className="text-4xl text-[#545454] lg:6xl space-y-6">
             <IoBedOutline></IoBedOutline>
             <PiBathtub></PiBathtub>
             <GrHome></GrHome>

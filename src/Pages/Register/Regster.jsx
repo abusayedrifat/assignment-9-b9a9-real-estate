@@ -6,6 +6,7 @@ import "react-toastify/dist/ReactToastify.css";
 import "./register.css";
 import { RiEyeCloseFill } from "react-icons/ri";
 import { FaEye } from "react-icons/fa";
+import { Helmet } from "react-helmet-async";
 const Regster = () => {
   const { createUser } = useContext(AuthContext);
   const navigate = useNavigate();
@@ -62,6 +63,7 @@ const Regster = () => {
 
   return (
     <div className="bg-[#F3F3F3] pb-[50px] border ">
+      <Helmet><title>LUXURY | Register</title></Helmet>
       <div className="bg-white h-full w-[90%] lg:w-[60%] border mx-auto my-28 px-10 lg:px-24 py-20  rounded-md">
         <h1 className="text-color text-3xl font-semibold text-center mb-12 ">
           Register your account

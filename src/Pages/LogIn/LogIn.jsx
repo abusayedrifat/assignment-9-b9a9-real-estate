@@ -5,6 +5,7 @@ import { FaGoogle, FaGithub } from "react-icons/fa";
 import { RiEyeCloseFill } from "react-icons/ri";
 import { FaEye } from "react-icons/fa";
 import "./login.css";
+import { Helmet } from "react-helmet-async";
 const LogIn = () => {
   const { googleLogIn, gitHubLogIn, logIn } = useContext(AuthContext);
   const location = useLocation();
@@ -54,6 +55,7 @@ const LogIn = () => {
 
   return (
     <div className="bg-[#F3F3F3] pb-[50px] pt-16 p-text ">
+      <Helmet><title>LUXURY | LogIn</title></Helmet>
       <div className="bg-white w-[90%] lg:w-[50%]  mx-auto px-10  lg: py-20  rounded-md">
         <h1 className="text-color text-3xl font-semibold text-center mb-16   ">
           Login your account
