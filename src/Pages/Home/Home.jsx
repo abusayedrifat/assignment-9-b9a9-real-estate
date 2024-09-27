@@ -1,4 +1,4 @@
-// import { useEffect } from "react";
+import { useEffect } from "react";
 import Slider from "../../Components/Slider/Slider";
 import InfoCard from "../../Components/Info-card/InfoCard";
 import AboutUs from "../../Components/AboutUs/AboutUs";
@@ -6,19 +6,18 @@ import Villa from "../../Components/all properties/Villa/Villa";
 import { useLoaderData } from "react-router-dom";
 
 const Home = () => {
-//   useEffect(() => {
-//     window.scrollTo(0, 0);
-//   }, []);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const propertiesData = useLoaderData();
   return (
     <div>
       <Slider></Slider>
 
       <InfoCard></InfoCard>
-  
-        <AboutUs></AboutUs>
-    
-      
+
+      <AboutUs></AboutUs>
+
       <div className="w-[95%] mx-auto  ">
         <h1 className="title-text text-4xl lg:text-7xl text-center mb-14 lg:mb-28 block ">
           All Properties

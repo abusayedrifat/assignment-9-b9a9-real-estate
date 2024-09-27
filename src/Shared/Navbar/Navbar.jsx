@@ -5,36 +5,43 @@ import { AuthContext } from "../../Components/AuthProvider/AuthProvider";
 import auth from "../../firebase.config";
 
 const Navbar = () => {
-
-    const {user, logOut} = useContext(AuthContext)
+  const { user, logOut } = useContext(AuthContext);
   const nav = (
     <>
       <li>
-        <NavLink to="/" className={"hover:bg-[#1eac9b70] rounde-lg"}>Home</NavLink>
+        <NavLink to="/" className={"hover:bg-[#1eac9b70] rounde-lg"}>
+          Home
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/details" className={"hover:bg-[#1eac9b70] rounde-lg"}>Details</NavLink>
+        <NavLink to="/details" className={"hover:bg-[#1eac9b70] rounde-lg"}>
+          Details
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/connect" className={"hover:bg-[#1eac9b70] rounde-lg"}>Profile</NavLink>
+        <NavLink to="/connect" className={"hover:bg-[#1eac9b70] rounde-lg"}>
+          Profile
+        </NavLink>
+      </li>
+      <li>
+        <NavLink to="/connect" className={"hover:bg-[#1eac9b70] rounde-lg"}>
+          Connect
+        </NavLink>
       </li>
     </>
   );
 
-  const handleLogOut = e =>{
-    e.preventDefault()
+  const handleLogOut = (e) => {
+    e.preventDefault();
 
     logOut(auth)
-    .then(result =>{
+      .then((result) => {
         console.log(result);
-        
-    })
-    .catch(error=>{
+      })
+      .catch((error) => {
         console.log(error.message);
-        
-    }
-    )
-  }
+      });
+  };
   return (
     <div>
       <div className="flex py-2 px-3 justify-between  items-center bg-[rgb(8,26,22)]">
@@ -63,24 +70,36 @@ const Navbar = () => {
               {nav}
             </ul>
           </div>
-          <Link to='/' className="lg:text-2xl title-text text-[rgb(234,237,240)] lg:text-right">
-               <div className=" flex flex-col">
-              <span className="text-2xl text-[#C28563]  lg:text-4xl">LUXURY</span>
-              <span className="text text-[#1eac9b70]">PROPERTIES</span>
+          <Link
+            to="/"
+            className="lg:text-2xl title-text text-[rgb(234,237,240)] lg:text-right"
+          >
+            <div className=" flex flex-col">
+              <span className="text-2xl text-[#C28563]  lg:text-4xl">
+                LUXURY
+              </span>
+              <span className=" text-[#1eac9b70]">PROPERTIES</span>
             </div>
-          </Link> 
-         
+          </Link>
         </div>
         <div className=" hidden lg:flex">
-          <ul className="menu menu-horizontal text-[#C28563]  text-xl px-1">{nav}</ul>
+          <ul className="menu menu-horizontal text-[#C28563]  text-xl px-1">
+            {nav}
+          </ul>
         </div>
         <div className="w-[70px] h-[70px]">
-
-            {
-                user? <img onClick={handleLogOut} src={user.photoURL} className=" h-full object-cover rounded-full border border-red-700 text-white hover:cursor-pointer" alt="log Out" /> : <NavLink to='/logIn' ><button className="btn font-bold lg:text-lg">LogIn</button></NavLink>
-            }
-           
-          
+          {user ? (
+            <img
+              onClick={handleLogOut}
+              src={user.photoURL}
+              className=" h-full object-cover rounded-full border border-red-700 text-white hover:cursor-pointer"
+              alt="log Out"
+            />
+          ) : (
+            <NavLink to="/logIn">
+              <button className="btn font-bold lg:text-lg">LogIn</button>
+            </NavLink>
+          )}
         </div>
       </div>
     </div>

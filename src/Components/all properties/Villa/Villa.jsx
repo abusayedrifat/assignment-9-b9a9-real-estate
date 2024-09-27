@@ -41,16 +41,20 @@ const Villa = ({ property }) => {
         <p>
           Type : <b>{type}</b>
         </p>
-        <p> Living area : <b>{size}</b>  </p>
-        <p> Land Size :  <b>{land_size}</b> </p>
+        <p>
+          {" "}
+          Living area : <b>{size}</b>{" "}
+        </p>
+        <p>
+          {" "}
+          Land Size : <b>{land_size}</b>{" "}
+        </p>
         <p>
           <span>
-            
             <b>{bedrooms}</b> Bedrooms & <b>{bathrooms}</b> Bathrooms
           </span>
         </p>
         <p className="flex gap-2 items-center text-[#C28563]">
-        
           <b>Price : {price} </b>
           <HiCurrencyDollar className="text-2xl "></HiCurrencyDollar>
         </p>
@@ -68,5 +72,5 @@ const Villa = ({ property }) => {
 export default Villa;
 
 Villa.propTypes = {
-    property: PropTypes.node,
+  property: PropTypes.node,
 };

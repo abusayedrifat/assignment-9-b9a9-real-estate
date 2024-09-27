@@ -2,8 +2,8 @@ import { useContext, useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Components/AuthProvider/AuthProvider";
 import { toast, ToastContainer } from "react-toastify";
-import 'react-toastify/dist/ReactToastify.css';
-import './register.css'
+import "react-toastify/dist/ReactToastify.css";
+import "./register.css";
 import { RiEyeCloseFill } from "react-icons/ri";
 import { FaEye } from "react-icons/fa";
 const Regster = () => {
@@ -11,7 +11,7 @@ const Regster = () => {
   const navigate = useNavigate();
 
   const [submitError, setSubmitError] = useState("");
-  const [showPassword,  setShowPassword] = useState(false)
+  const [showPassword, setShowPassword] = useState(false);
 
   const handleRegister = (e) => {
     e.preventDefault();
@@ -19,48 +19,47 @@ const Regster = () => {
     const name = form.get("name");
     const email = form.get("email");
     const password = form.get("password");
-    // const photoUrl = form.get("photoURL");
-    console.log(name);
+    const photoUrl = form.get("photoURL");
+    console.log(name, photoUrl);
 
     e.target.name.value = "";
     e.target.email.value = "";
     e.target.password.value = "";
-    // e.target.photoUrl.value = "";
+    e.target.photoUrl.value = "";
 
     createUser(email, password)
       .then((result) => {
-        toast.success("registratered successfully")
+        toast.success("registratered successfully");
         navigate("/logIn");
         console.log(result);
       })
       .catch((error) => {
         console.log(error.message);
       });
-    };
+  };
 
-    const handlePassword = (e) => {
-      const password = e.target.value;
+  const handlePassword = (e) => {
+    const password = e.target.value;
 
-      if (password.length < 6) {
-        toast.warn("password must be at least 6 character")
-    
-        return;
-      } else if (!/[A-Z]/.test(password)) {
-        toast.warn("paaword must contaiat least one capital letter")
-       
-        return;
-      } else if (!/[a-z]/.test(password)) {
-        toast.warn("paaword must contaiat least one small letter")
-        
-        return;
-      } else {
-        toast.success("password is good to go now")
-        setSubmitError()
-        return;
-      }
-    };
+    if (password.length < 6) {
+      toast.warn("password must be at least 6 character");
 
-  
+      return;
+    } else if (!/[A-Z]/.test(password)) {
+      toast.warn("paaword must contaiat least one capital letter");
+
+      return;
+    } else if (!/[a-z]/.test(password)) {
+      toast.warn("paaword must contaiat least one small letter");
+
+      return;
+    } else {
+      toast.success("password is good to go now");
+      setSubmitError();
+      return;
+    }
+  };
+
   return (
     <div className="bg-[#F3F3F3] pb-[50px] border ">
       <div className="bg-white h-full w-[90%] lg:w-[60%] border mx-auto my-28 px-10 lg:px-24 py-20  rounded-md">
@@ -109,17 +108,22 @@ const Regster = () => {
             <div className="flex relative items-center">
               <input
                 onKeyUp={handlePassword}
-                type={showPassword?"text":"password"}
+                type={showPassword ? "text" : "password"}
                 name="password"
                 placeholder="Enter your password"
                 className="input bg-[#F3F3F3] input-bordered w-full"
                 required
               />
-              <span onClick={()=>setShowPassword(!showPassword)} className="absolute right-4 cursor-pointer text-xl text-[#cb6b37] hover:text-[#1d5b54] ">
-                {
-                  showPassword?<RiEyeCloseFill></RiEyeCloseFill>:<FaEye></FaEye>
-                }
-                  </span>
+              <span
+                onClick={() => setShowPassword(!showPassword)}
+                className="absolute right-4 cursor-pointer text-xl text-[#cb6b37] hover:text-[#1d5b54] "
+              >
+                {showPassword ? (
+                  <RiEyeCloseFill></RiEyeCloseFill>
+                ) : (
+                  <FaEye></FaEye>
+                )}
+              </span>
             </div>
           </div>
           <div>
@@ -133,44 +137,48 @@ const Regster = () => {
         <div className="text-center mt-8 text-[#706F6F] font-semibold">
           <p>
             Already Have An Account?
-            <NavLink to="/logIn" className="text-[#cb6b37] hover:text-[#1d5b54]">
+            <NavLink
+              to="/logIn"
+              className="text-[#cb6b37] hover:text-[#1d5b54]"
+            >
               LogIn
             </NavLink>
           </p>
         </div>
-        
       </div>
-      
-       {submitError && ( <div><ToastContainer
-position="top-center"
-autoClose={5000}
-hideProgressBar={false}
-newestOnTop={false}
-closeOnClick
-rtl={false}
-pauseOnFocusLoss
-draggable
-pauseOnHover
-theme="dark"
-transition: Bounce
-/>  </div>   )
-       }
-       <div>
-       <ToastContainer
-position="top-center"
-autoClose={5000}
-hideProgressBar={false}
-newestOnTop={false}
-closeOnClick
-rtl={false}
-pauseOnFocusLoss
-draggable
-pauseOnHover
-theme="dark"
-transition: Bounce
-/> 
-       </div>
-    
+
+      {submitError && (
+        <div>
+          <ToastContainer
+            position="top-center"
+            autoClose={5000}
+            hideProgressBar={false}
+            newestOnTop={false}
+            closeOnClick
+            rtl={false}
+            pauseOnFocusLoss
+            draggable
+            pauseOnHover
+            theme="dark"
+            transition:Bounce
+          />{" "}
+        </div>
+      )}
+      <div>
+        <ToastContainer
+          position="top-center"
+          autoClose={5000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          theme="dark"
+          transition:Bounce
+        />
+      </div>
     </div>
   );
 };

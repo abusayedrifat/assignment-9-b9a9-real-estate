@@ -1,10 +1,5 @@
-
 const Connect = () => {
-    return (
-        <div>
-            
-        </div>
-    );
+  return <div></div>;
 };
 
 export default Connect;
