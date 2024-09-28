@@ -3,6 +3,7 @@ import "./navbar.css";
 import { useContext } from "react";
 import { AuthContext } from "../../Components/AuthProvider/AuthProvider";
 import auth from "../../firebase.config";
+// import userPng from "../../assets/user/user.png";
 
 const Navbar = () => {
   const { user, logOut } = useContext(AuthContext);
@@ -87,7 +88,26 @@ const Navbar = () => {
             {nav}
           </ul>
         </div>
-        <div className="w-[70px] h-[70px]">
+        <div>
+          <div className="dropdown dropdown-bottom dropdown-end">
+            <div>
+            {
+              user?<img tabIndex={0} src={user.photoURL} alt="" className="w-14 h-14 rounded-full border cursor-pointer" /> :<Link to='/logIn' className="btn ">LogIn</Link>
+            }
+            </div>
+            <ul
+              tabIndex={0}
+              className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow"
+            >
+              <li>
+                {
+                  user && ( <button onClick={handleLogOut} className="btn bg-gray-100">LogOut</button> )
+                }
+              </li>
+            </ul>
+          </div>
+        </div>
+        {/* <div className="w-[70px] h-[70px]">
           {user ? (
             <img
               onClick={handleLogOut}
@@ -100,7 +120,7 @@ const Navbar = () => {
               <button className="btn font-bold lg:text-lg">LogIn</button>
             </NavLink>
           )}
-        </div>
+        </div> */}
       </div>
     </div>
   );
