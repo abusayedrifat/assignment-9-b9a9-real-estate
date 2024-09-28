@@ -95,8 +95,7 @@ const PropertyDetails = () => {
 
       <div className="w-[50%] lg:w-[40%] ml-12 mr-16 lg:ml-48 space-y-5 title-text text-[#313131]">
         <button className="btn bg-[#0b5c52] text-[#C28563] rounded-none">
-          {" "}
-          {status}{" "}
+          {status}
         </button>
         <div className="border-t border-[#969696] w-full"></div>
         <p className=" text-4xl lg:text-5xl"> $ {price} </p>
@@ -106,34 +105,35 @@ const PropertyDetails = () => {
         <div className="title-text lg:mt-20">
           <p className="text-3xl lg:text-4xl">{location.address}</p>
           <p className="text-xl lg:text-2xl">
-            {" "}
-            <span>{location.city},</span> <span> {location.country} </span>{" "}
+            <span>{location.city},</span> <span> {location.country} </span>
           </p>
         </div>
         <div className="border-l hidden lg:block h-80 border-[#969696] lg:ml-52"></div>
 
-        <div className="flex items-center gap-8 lg:gap-24 ">
-          <div className="text-4xl text-[#545454] lg:6xl space-y-6">
-            <IoBedOutline></IoBedOutline>
-            <PiBathtub></PiBathtub>
-            <GrHome></GrHome>
-            <BiArea></BiArea>
-          </div>
-          <div className="space-y-7 text-xl">
-            <p>
+        <div className="flex flex-col  gap-8 text-left ">
+
+          <div className="flex gap-9">
+            <IoBedOutline className="text-4xl text-[#545454] lg:6xl" ></IoBedOutline>
+            <p className=" text-xl">
               <b> {bedrooms} </b> Bedrooms
             </p>
-            <p>
-              {" "}
-              <b> {bathrooms} </b> Bathrooms{" "}
+          </div>
+          <div className="flex items-center gap-9">
+            <PiBathtub className="text-4xl text-[#545454] lg:6xl" ></PiBathtub>
+            <p className=" text-xl">
+              <b> {bathrooms} </b> Bathrooms
             </p>
-            <p>
-              {" "}
-              <b> {size} </b> Living Area{" "}
+          </div>
+          <div className="flex items-center gap-9">
+            <GrHome className="text-4xl text-[#545454] lg:6xl" ></GrHome>
+            <p className=" text-xl">
+              <b> {size} </b>  Living Area
             </p>
-            <p>
-              {" "}
-              <b> {land_size} </b>Land Size{" "}
+          </div>
+          <div className="flex  gap-9">
+            <BiArea className="text-4xl text-[#545454] lg:6xl" ></BiArea>
+             <p className=" text-xl">
+              <b> {land_size} </b> Land Size
             </p>
           </div>
         </div>
@@ -151,11 +151,29 @@ const PropertyDetails = () => {
             </h1>
             <p className="text-xl poppi font-light leading-10 text-[#000000bd]">
               <p className="pt-4 pb-2 text-xl font-extrabold">Features</p>
-              {features.interior}
+              <li>{features.interior[0]}</li>
+              <li>{features.interior[1]}</li>
+              <li>{features.interior[2]}</li>
+              <li>{features.interior[3]}</li>
+              <li>{features.interior[4]}</li>
+              <li>{features.interior[5]}</li>
+              <li>{features.interior[6]}</li>
+              <li>{features.interior[7]}</li>
+              
+              
             </p>
             <p className="text-xl poppi font-light leading-10 text-[#000000bd]">
               <p className=" pb-2 text-xl font-extrabold pt-10">Amenities</p>
-              {amenities.interior}
+              <li>{amenities.interior[0]}</li>
+              <li>{amenities.interior[1]}</li>
+              <li>{amenities.interior[2]}</li>
+              <li>{amenities.interior[3]}</li>
+              <li>{amenities.interior[4]}</li>
+              <li>{amenities.interior[5]}</li>
+              <li>{amenities.interior[6]}</li>
+              <li>{amenities.interior[7]}</li>
+              <li>{amenities.interior[8]}</li>
+              
             </p>
           </div>
           <div className=" lg:w-1/2 ">
@@ -164,11 +182,25 @@ const PropertyDetails = () => {
             </h1>
             <p className="text-xl poppi font-light leading-10 text-[#000000bd]">
               <p className="pt-4 pb-2 text-xl font-extrabold">Features</p>
-              {features.exterior}
+               <li>{features.exterior[0]}</li>
+               <li>{features.exterior[1]}</li>
+               <li>{features.exterior[2]}</li>
+               <li>{features.exterior[3]}</li>
+               <li>{features.exterior[4]}</li>
+               <li>{features.exterior[5]}</li>
+               <li>{features.exterior[6]}</li>
+               <li>{features.exterior[7]}</li>
             </p>
             <p className="text-xl poppi font-light leading-10 text-[#000000bd]">
               <p className="pb-2 text-xl font-extrabold pt-10">Amenities</p>
-              {amenities.exterior}
+               <li>{amenities.exterior[0]}</li>
+               <li>{amenities.exterior[1]}</li>
+               <li>{amenities.exterior[2]}</li>
+               <li>{amenities.exterior[3]}</li>
+               <li>{amenities.exterior[4]}</li>
+               <li>{amenities.exterior[5]}</li>
+               <li>{amenities.exterior[6]}</li>
+               <li>{amenities.exterior[7]}</li>
             </p>
           </div>
         </div>
