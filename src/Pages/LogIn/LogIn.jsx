@@ -1,4 +1,4 @@
-import { useContext, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { AuthContext } from "../../Components/AuthProvider/AuthProvider";
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import { FaGoogle, FaGithub } from "react-icons/fa";
@@ -55,6 +55,10 @@ const LogIn = () => {
         console.log(error);
       });
   };
+
+  useEffect(()=>{
+    window.scrollTo(0,0)
+  },[])
 
   return (
     <div className="bg-[#F3F3F3] pb-[50px] pt-16 p-text ">
